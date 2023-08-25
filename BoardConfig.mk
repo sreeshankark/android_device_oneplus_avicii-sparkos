@@ -121,8 +121,8 @@ BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := BRAND_SHOW_FLAG=oneplus
 TARGET_KERNEL_SOURCE := kernel/oneplus/avicii
 TARGET_KERNEL_CONFIG := avicii_defconfig debugfs.config
-TARGET_KERNEL_CLANG_VERSION := r487747c
-TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)
+TARGET_KERNEL_CLANG_VERSION := r498229
+TARGET_KERNEL_CLANG_PATH := $(abspath .)/kernel/oneplus/avicii/clang-llvm
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
