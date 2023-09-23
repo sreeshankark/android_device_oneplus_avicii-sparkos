@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The ancientOS Project
+# Copyright (C) 2018-2019 The SparkOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_avicii.mk
+    $(LOCAL_DIR)/spark_avicii.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_avicii-eng \
-    ancient_avicii-user \
-    ancient_avicii-userdebug
+    spark_avicii-eng \
+    spark_avicii-user \
+    spark_avicii-userdebug

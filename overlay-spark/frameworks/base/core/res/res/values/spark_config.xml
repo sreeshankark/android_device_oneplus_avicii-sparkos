@@ -5,7 +5,15 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-
+    
+    <!-- Whether device has physical tri state switch -->
+    <bool name="config_hasAlertSlider">true</bool>
+    
+    <!-- The location of the devices physical tri state switch
+         0: Left side
+         1: Right side -->
+    <integer name="config_alertSliderLocation">1</integer>
+    
     <!-- Display has physical cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
 
@@ -30,5 +38,16 @@
     
     <!-- Determines whether the shell features all run on another thread. -->
     <bool name="config_enableShellMainThread">true</bool>
+    
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
+    
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">true</bool>
+    
+     <!-- Whether device has warp charging support -->
+    <bool name="config_hasWarpCharger">true</bool>
+    <!-- Path to warp charging status file -->
+    <string name="config_WarpChargerStatusPath">/sys/class/oplus_chg/battery/voocchg_ing</string>
 
 </resources>

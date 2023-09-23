@@ -55,4 +55,8 @@ void vendor_load_properties() {
     if (std::string content; ReadFileToString("/proc/devinfo/ddr_type", &content)) {
         OverrideProperty("ro.boot.ddr_type", Split(Trim(content), "\t").back().c_str());
     }
+    
+    // SparkOS Properties
+    OverrideProperty("ro.spark.chipset", "Snapdragon 765G 5G");
+    OverrideProperty("ro.spark.maintainer", "Sreeshankar K");
 }
